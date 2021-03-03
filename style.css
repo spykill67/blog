@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -15,25 +16,27 @@ a {
 
 header {
   width: 100%;
-  position: relative;
+  position: fixed;
+  top: 0;
 }
 
 header h1 {
   width: 100%;
-  top: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   font-size: 35px;
-  position: fixed;
   text-align: center;
   background-color: #004365;
   color: white;
   font-family: AkayaKanadaka-Regular;
 }
 
+.contain_title {
+  width: 100%;
+}
+
 nav {
   width: 100%;
-  margin-top: 92px;
   background-color: #20272d;
 }
 
@@ -49,22 +52,87 @@ nav ul {
 
 nav li {
   list-style: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 8px;
+  padding-bottom: 9px;
 }
 
 nav li a {
-  padding: 15px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 14px;
   font-weight: bold;
   color: white;
 }
 
 main {
   width: 100%;
-  margin: auto;
+  padding-top: 101px;
   height: 1500px;
   background-color: #d7d7d7;
+}
+
+main .descript_blog {
+  width: 975px;
+  padding: 7px;
+  font-size: 10px;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  margin: auto;
+  background-color: #ebebeb;
+}
+
+main .text_descript {
+  color: grey;
+}
+
+main .bold_ponct {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.contain_section {
+  width: 975px;
+  padding: 17px 7px 5px 7px;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+
+/* cette partie de code représente la première section de la page index
+   soit les dernier articles sorties  */
+section {
+  width: 975px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin: auto;
+}
+
+section .groupe_article1, section .groupe_article2 {
+  width: 250px;
+}
+
+section .groupe_article1 {
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+.last_article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box_article {
+  width: 250px;
+  height: 180px;
+  margin-bottom: 17px;
+  border-radius: 17px;
+  background-color: black;
+}
+
+.profil_decript {
+  background-color: black;
+  width: 180px;
+  border-radius: 14px;
+  height: 250px;
+  margin-left: 207px;
 }
 
 /* La page scss contient toutes les animations du site */

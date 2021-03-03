@@ -1,6 +1,26 @@
 main{
-    width: 100%;
-    margin:auto;
+    width: 100%; 
+    padding-top: 101px;
     height:1500px;
     background-color: $font_body;
+    .descript_blog{
+        width: 975px;
+        padding: 7px;
+        font-size: 10px;
+        font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+        margin: auto;
+        background-color: $font_description;
+    }
+
+    .text_descript{
+        color:grey;
+    }
+
+    .bold_ponct{
+        font-size: 12px;
+        font-weight: bold;
+    }
 }
+
+
+
