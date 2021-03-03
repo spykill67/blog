@@ -1,0 +1,15 @@
+/* La page scss contient toutes les animations du site */
+
+.nav_animation{
+    -webkit-transition: background-color 10s ease-in-out ;
+    -moz-transition: background-color 0.25s ease-in-out;
+    -o-transition: background-color 0.25s ease-in-out;
+    -ms-transition:  background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+    &:hover{
+        background-color: #434647;
+    }
+
+
+
+}

@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Partie police */
+@font-face {
+  font-family: 'AkayaKanadaka-Regular';
+  src: url("AkayaKanadaka-Regular.ttf");
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+header h1 {
+  width: 100%;
+  top: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 35px;
+  position: fixed;
+  text-align: center;
+  background-color: #004365;
+  color: white;
+  font-family: AkayaKanadaka-Regular;
+}
+
+nav {
+  width: 100%;
+  margin-top: 92px;
+  background-color: #20272d;
+}
+
+nav ul {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav li a {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  height: 1500px;
+  background-color: #d7d7d7;
+}
+
+/* La page scss contient toutes les animations du site */
+.nav_animation {
+  -webkit-transition: background-color 10s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.nav_animation:hover {
+  background-color: #434647;
+}
+/*# sourceMappingURL=style.css.map */
