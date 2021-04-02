@@ -1,14 +1,19 @@
 header{
     width: 100%;
     position: fixed;
-    top: 0;  
-    h1{
+    top: 0;
+    .block_title{
         width: 100%;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        font-size: 35px;
-        text-align: center;
         background-color: $couleur_primaire;
+    }
+}
+
+.block_name{
+    width: 465px;
+    padding: 5px 0px 5px 0px;
+    margin: auto;
+    .site_name{
+        font-size: 35px;
         color: white;
         font-family: AkayaKanadaka-Regular;
     }

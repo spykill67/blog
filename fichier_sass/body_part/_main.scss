@@ -3,22 +3,25 @@ main{
     padding-top: 101px;
     height:1500px;
     background-color: $font_body;
-    .descript_blog{
-        width: 975px;
-        padding: 7px;
-        font-size: 10px;
-        font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
-        margin: auto;
-        background-color: $font_description;
-    }
 
     .text_descript{
         color:grey;
     }
+}
 
-    .bold_ponct{
-        font-size: 12px;
-        font-weight: bold;
+.descript_blog{
+    width: 975px;
+    padding: 7px;
+    font-family: Arial,Helvetica,Helvetica,sans-serif;
+    font-size: 0.6875rem;
+    line-height: 1.0625rem;
+    color: #888;
+    margin: auto;
+    background-color: $font_description;
+    .main_h1{
+        display: inline;
+        font-size: 0.6875rem;
+        font-weight: 100;
     }
 }
 
